@@ -1,0 +1,200 @@
+ #mainNav {
+   background-color: rgb(39, 72, 104);
+
+}
+
+/* @media (min-width: 600px) {
+  #mainNav {
+
+    background-color: green;
+  }
+} */
+
+
+
+
+
+ #mainNav .navbar, .navbar-brand, .navbar-toggler, .navbar-nav, .nav-item, .nav-link {
+  /* font-size: 18px;
+  right: 0;
+  padding: 20px;
+  text-transform: uppercase;
+  border: 0; */
+  padding-top: 5  px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+
+}
+
+/* @media (min-width: 600px) {
+  #mainNav .navbar {
+    font-size: 18px;
+    right: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    border: 0;
+    background-color: green;
+    color: white;
+  }
+}  */
+
+
+
+
+#intro2 .container-fluid {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(39, 72, 104);
+  color: white;
+}
+
+#intro2 .example-card {
+  max-width: 380px;
+  min-height: 250px;
+  padding-top: 30px;
+  padding-bottom: -1px;
+  /* max-height: 480px;
+  color: white; */
+}
+
+@media (max-width: 600px) {
+  intro2 .example-card {
+    max-width: 380px;
+    min-height: 200px;
+    max-height: 210px;
+    /* padding-top: 30px;
+    padding-bottom: 1px; */
+    /* max-height: 480px;
+    color: white; */
+  }
+}
+
+#intro2 .example-card .heading {
+  color: black;
+  font-weight:  bold;
+  font-size: 20px;
+}
+
+#intro2 .example-card .content {
+  color: black;
+  font-weight:  bold;
+}
+
+.mat-flat-button {
+  background-color: rgb(39, 72, 104);
+  font-weight:  bold;
+}
+
+.popover-title{
+    color:  yellow;
+}
+
+
+
+#intro3 .container-fluid {
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(132, 141, 148);
+  color: white;
+}
+
+@media (max-width: 600px) {
+#intro3 .container-fluid {
+  width: 100%;
+  height: 100%;
+  /* padding-top: 40px; */
+  /* padding-bottom: 40px; */
+  min-height: 50px;
+  max-height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(132, 141, 148);
+  color: white;
+}
+}
+
+@media (min-width: 600px) {
+#intro3 .container-fluid {
+  width: 100%;
+  height: 100%;
+  /* padding-top: 40px; */
+  /* padding-bottom: 40px; */
+  min-height: 50px;
+  max-height: 490px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(132, 141, 148);
+  color: white;
+}
+
+}
+
+
+.page-footer {
+  min-height:  50px;
+ background-color: rgb(39, 72, 104);
+
+}
+
+ .example-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-container > * {
+  width: 100%;
+}
+
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+#intro1 .container-fluid {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(132, 141, 148);
+  color: white;
+}
+
+#intro1 .intro-name {
+  font: 100px;
+  font-style: normal;
+  /* padding-left: 100px;
+  padding-top: 1px;
+  padding-bottom: 180px; */
+}
+
+@media (min-width: 600px) {
+  #intro1 .container-fluid {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    padding-top: 140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(132, 141, 148);
+    color: white;
+  }
+}
